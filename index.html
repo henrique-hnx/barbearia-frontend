@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css">
+
+
+  <title>Barbearia de Jogos</title>
+
+</head>
+
+<body>
+  <header>
+    
+    <!-- INICO NAVBAR -->
+
+    <div class="navbar">
+      <div class="logo"><a href="#">Barbearia de Jogos</a></div>
+      <ul class="links">
+        <li><a href="">Início</a></li>
+        <li><a href="">Cortes</a></li>
+        <li><a href="">Jogos</a></li>
+        <li><a href="">Contato</a></li>
+      </ul>
+      <a href="#" class="action_btn">Agende</a>
+      <div class="toggle_btn">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+
+    <div class="dropdown_menu">
+      <li><a href="">Início</a></li>
+      <li><a href="">Cortes</a></li>
+      <li><a href="">Jogos</a></li>
+      <li><a href="">Contato</a></li>
+      <li><a href="#" class="action_btn">Agende</a></li>
+
+    </div>
+
+    <!-- FINAL NAVBAR -->
+
+  </header>
+
+  <main>
+    <section class="nome" id="home">
+      <h2>Bem-vindo à Barbearia de Jogos</h2>
+      <p>Nós somos uma barbearia que oferece jogos  para nossos clientes <br> se divertirem enquanto esperam pelo seu
+        corte de cabelo. <br> Nós temos uma seleção de jogos para todos os gostos e idades.</p>
+    </section>
+
+    <!-- <section class="jogos" id="jogos">
+      <h2>Nossos jogos</h2>
+      <ul>
+        <li>
+          <h3>Super Mario Bros.</h3>
+          <p>Jogo clássico de plataforma do encanador mais famoso do mundo. Disponível para Nintendo Switch.</p>
+        </li>
+        <li>
+          <h3>Minecraft</h3>
+          <p>Jogo de construção e exploração que permite que você crie seu próprio mundo com blocos. Disponível para PC
+            e Xbox.</p>
+        </li>
+        <li>
+          <h3>FIFA 22</h3>
+          <p>Jogo de futebol mais recente da EA Sports. Disponível para Playstation 5 e Xbox Series X.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="cortes" id="cortes">
+      <h2>Nossos Cortes</h2>
+      <ul>
+        <li>
+          <h3>Super Mario Bros.</h3>
+          <p></p>
+        </li>
+        <li>
+          <h3>Minecraft</h3>
+          <p></p>
+        </li>
+        <li>
+          <h3>FIFA 22</h3>
+          <p></p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="contato" id="contato">
+      <h2>Entre em contato conosco</h2>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="PA" class="nome" id="nome" name="nome" placeholder="Nome">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" class="email" id="email" name="email" placeholder="Email">
+        <br>
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" class="mensagem" name="mensagem" placeholder="Mensagem"></textarea>
+        <br>
+        <button class="btn" type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Barbearia de Jogos - Todos os direitos reservados.</p>
+  </footer> -->
+
+
+<!-- JAVASCRIPT -->
+
+  <script>
+    const toggleBtn = document.querySelector('.toggle_btn')
+    const toggleBtnIcon = document.querySelector('.toggle_btn i')
+    const dropDownMenu = document.querySelector('.dropdown_menu')
+
+    toggleBtn.onclick = function () {
+      dropDownMenu.classList.toggle('open')
+      const isOpen = dropDownMenu.classList.contains('open')
+
+      toggleBtnIcon.classList = isOpen
+        ? 'fa-solid fa-xmark'
+        : 'fa-solid fa-bars'
+    }
+  </script>
+
+</body>
+
+</html>
