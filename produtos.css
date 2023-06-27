@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+header{
+    background-color: rgb(228, 199, 224);
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 90px
+    
+}
+h1{
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+div a{
+    font-size: x-large;
+    text-decoration: none;
+}
+img{
+ width: 20%;
+}
+nav a:hover {
+    color: rgb(168, 29, 138);
+}
+
+nav .contact:hover {
+    color: black;
+    cursor: context-menu;
+}
+.produtos li {
+    display: inline-block;
+    width: 35%;
+    text-align: center;
+    vertical-align: top;
+    background-color: rgb(255, 255, 255);
+    margin: 5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: black;
+    border-width: 2px;
+    border-style:solid;
+    border-radius: 20px 20px 20px 60px;
+}
+.produtos li:hover{
+    border-color: rgb(163, 92, 165);
+    cursor: pointer;
+}
+
+.produtos{
+    width: 940px;
+    margin:0 auto ;
+    
+
+}
+.produtos h2{
+    font-size: 25px ;
+    font-weight: bold;
+}
+.produto-preco{
+    font-size: 22px;
+    margin: 10px 0 0;
+}
+h2{
+size: 50px;
+}
+
+.vodase 
+    #video-player {
+        display: none;
+}
