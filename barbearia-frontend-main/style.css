@@ -9,14 +9,14 @@
 }
 
 body {
-    background-color: rgb(236, 175, 250);
+    background-color: rgb(246, 221, 250);
 }
 h1{
     text-align: center;
     border: solid ;
     background-color:rgb(0, 0, 0);
     color: #d4a1ec;
-    text-shadow: 2px 2px 1px  rgb(179, 0, 0);
+    text-shadow: 2px 2px 1px  rgb(0, 0, 0);
 }
 
 header {
@@ -24,33 +24,127 @@ header {
     padding: 0 2rem;
 }
 
-div {
-    text-align: center;
-
-}
-
 img {
-    width: 50%;
+    width: 40%;
     border-radius: 20%;
     margin-top: 2%;
 }
 
 li {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
     text-shadow: 2px 2px 10px  black;
 }
 ul {
     display: inline-block;
-    vertical-align: center;
     width: 20%;
     margin-right: 15%;
+
 }
 h2{
 
 text-align: center;
-color:rgb(95, 0, 71);
+color:rgb(0, 0, 0);
 }
 .produtos {
     text-align: center;
+    text-decoration: none;
+}
+
+.sim {
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(163, 92, 165);
+    cursor: none;
+}
+
+.produtohtml {
+    text-align: justify;
+    cursor: context-menu;
+}
+
+.cac {
+    padding: 100px;
+}
+
+.cac ul {
+    margin-top: 150px;
+    display: inline-block;
+    vertical-align: top;
+    width: 17%;
+    margin-right: 15%;
+    margin-left: 20%;
+}
+
+h3 {
+    text-align: center;
+}
+
+.cac li {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.titulocentralizado {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    margin: 8px;
+}
+
+.dir {
+    padding: 50px;
+}
+
+.dir ul {
+    margin-top: 150px;
+    display: inline-block;
+    vertical-align: top;
+    width: 22%;
+    margin-right: 20%;
+    margin-left: 300px;
+    text-align: justify;
+}
+
+.dir img {
+    float: left;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.dir li {
+    font-size: 20px;
+    text-align: justify;
+}
+
+strong {
+    font-size: 22px;
+}
+
+.cur {
+    text-align: justify;
+    margin-left: 15%;
+}
+
+.cenco {
+        text-decoration: none;
+        font-size: 80px;
+        color: purple;
+        text-align: center;
+
 }
